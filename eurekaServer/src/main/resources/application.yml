@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: eurekaServer
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eurekaServer:${server.port}/eureka/
+
+spring.cloud.config.discovery.enabled: true
+logging:
+  level: debug
