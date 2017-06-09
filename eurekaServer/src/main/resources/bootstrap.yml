@@ -1,3 +1,7 @@
 spring:
   application:
     name: eurekaServer
+
+management:
+  security:
+    enabled: false
