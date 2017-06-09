@@ -16,3 +16,7 @@ spring:
       server:
         git:
           uri: https://github.com/kbastani/spring-boot-microservice-config
+#logging:
+#  level:
+#    org: debug
+#    com: debug
